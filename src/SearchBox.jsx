@@ -12,7 +12,6 @@ export default function SearchBox() {
     return (
       <form onSubmit={handelSumbit}>
       <div className="wrapper">
-      <h3>Search For Weather</h3>
         <div className={`custom-textfield ${city ? "filled" : ""}`}>
           <input
             type="text"
