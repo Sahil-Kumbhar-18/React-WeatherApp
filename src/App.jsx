@@ -1,13 +1,13 @@
 import SearchBox from './SearchBox'
 import './App.css'
-import Button from './Button';
+import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   
 
   return (
     <div className='container '>
       <SearchBox/>
-    
+      
     </div>
   )
 }

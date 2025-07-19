@@ -3,7 +3,7 @@ import './App.css'
 export default function Button() {
   return (
     <div>
-      <button>Search</button>
+      <button className='btn btn-primary'>Search</button>
     </div>
   )
 }
